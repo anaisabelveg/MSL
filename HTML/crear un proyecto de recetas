@@ -1,0 +1,12 @@
+crear un proyecto de recetas
+
+
+La pagina index.html muestra un listado de todas las recetas disponibles y seran enlaces
+
+cada receta es una nueva pagina.
+
+Requisitos de cada receta:
+   1.- Tiene que haber un indice de contenidos
+   2.- Titulo, imagen final, dificultad, tiempo, numero de comensales, categoria
+   3.- Ingredientes como lista
+   4.- Elaboracion paso a paso, opcional imagen de cada paso
