@@ -1,0 +1,27 @@
+
+1.- Registrarnos en heruku.com
+
+2.- En el Dashboard hemos creado una aplicacion
+
+3.- Instalar heroku en nuestra maquina
+
+4.- Desde una consola (un CMD):
+
+	$ posicionarnos en el proyecto que queremos hacer deploy
+	$ heroku login -> nos pedira email y pw.
+	$ git init
+
+
+	Crear en al raiz del proyecto un archivo llamado .gitignore donde informamos que no queremos noda_modules
+
+
+	$ git add .
+	$ git commit -m "Primer Commit"
+	$ heroku git:remote -a anabel-hiberus-chat   (anabel-hiberus-chat es el nombre de la app creada en heroku)
+	$ git push heroku master
+
+5.- Como acceder a mi applicacion en el navegador??
+
+		https://anabel-hiberus-chat.herokuapp.com/
+
+
